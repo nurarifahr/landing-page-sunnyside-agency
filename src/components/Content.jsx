@@ -10,9 +10,9 @@ const Content = () => {
       <div className='text-center px-6 py-15 space-y-6'>
         <h1 className='font-fraunces text-4xl md:text-5xl font-bold'>Transform your brand</h1>
         <p className='font-barlow font-semibold text-slate-500 text-lg'>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-        <button class="relative font-fraunces font-bold text-lg">
+        <button className="relative font-fraunces font-bold text-lg -z-10">
         LEARN MORE
-        <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-35 rounded-lg h-3 bg-yellow-100 -z-10 -translate-y-1"></span>
+        <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-35 rounded-lg h-3 bg-yellow-100 -z-20 -translate-y-1"></span>
         </button>
       </div>
 
@@ -23,9 +23,9 @@ const Content = () => {
       <div className='text-center px-6 py-15 space-y-6'>
         <h1 className='font-fraunces text-4xl md:text-5xl font-bold'>Stand out to the right audience</h1>
         <p className='font-barlow font-semibold text-slate-500 text-lg'>Using collaborative formula of designers, researchers, photographers, videographers, and copywrites, we'll build and extend your brand in digital places.</p>
-        <button class="relative font-fraunces font-bold text-lg">
+        <button className="relative font-fraunces font-bold text-lg -z-10">
         LEARN MORE
-        <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-35 rounded-lg h-3 bg-rose-100 -z-10 -translate-y-1"></span>
+        <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-35 rounded-lg h-3 bg-rose-100 -z-10 -translate-y-1 -z-20"></span>
         </button>
       </div>
 
