@@ -3,9 +3,9 @@ import React from 'react'
 const Testimonials = () => {
   return (
     <div className='px-6'>
-      <h1 className='font-fraunces text-xl tracking-[0.2em] font-bold text-center py-12 text-slate-400'>CLIENT TESTIMONIALS</h1>
+      <h1 className='font-fraunces text-xl tracking-[0.2em] font-bold text-center py-12 text-slate-400 md:py-20'>CLIENT TESTIMONIALS</h1>
 
-      <div className='space-y-16 pb-12'>
+      <div className='space-y-16 pb-12 md:grid md:grid-cols-3  md:space-y-0 md:pb-25 md:mx-20 md:gap-3'>
       {/* 1 */}
       <div className='space-y-6 flex flex-col justify-center items-center text-center leading-7'>
         <img src="/images/image-emily.jpg" alt="" className='w-24 rounded-full'/>

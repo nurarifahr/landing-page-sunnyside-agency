@@ -6,17 +6,17 @@ const Footer = () => {
       <div className='flex flex-col space-y-6'>
         <h1 className='text-green-footer font-black text-4xl'>sunnyside</h1>
 
-        <ul className='flex flex-row justify-around font-barlow font-semibold text-green-footer'>
-            <li>About</li>
-            <li>Services</li>
-            <li>Project</li>
+        <ul className='flex flex-row justify-around font-barlow font-semibold text-green-footer md:justify-center md:gap-10 '>
+            <li className='hover:text-white cursor-pointer'>About</li>
+            <li className='hover:text-white cursor-pointer'>Services</li>
+            <li className='hover:text-white cursor-pointer'>Project</li>
         </ul>
 
-        <div className='flex flex-row justify-around px-12 pt-4'>
-            <img src="/images/icon-facebook.svg" alt="" />
-            <img src="/images/icon-instagram.svg" alt="" />
-            <img src="/images/icon-twitter.svg" alt="" />
-            <img src="/images/icon-pinterest.svg" alt="" />
+        <div className='flex flex-row justify-around px-12 pt-4 md:justify-center md:gap-10'>
+            <img src="/images/icon-facebook.svg" alt="" className='hover:invert hover:brightness-0 cursor-pointer' />
+            <img src="/images/icon-instagram.svg" alt="" className='hover:invert hover:brightness-0 cursor-pointer'/>
+            <img src="/images/icon-twitter.svg" alt="" className='hover:invert hover:brightness-0 cursor-pointer'/>
+            <img src="/images/icon-pinterest.svg" alt="" className='hover:invert hover:brightness-0 cursor-pointer'/>
         </div>
       </div>
     </div>
